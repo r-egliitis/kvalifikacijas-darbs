@@ -7,7 +7,7 @@
 dist
 
 # Node dependencies
-node_modules
+node_modules/
 
 # Logs
 logs
@@ -24,4 +24,9 @@ logs
 !.env.example
 
 # Docker
+docker-compose.caddy.yml
+docker-compose.nginx.yml
+docker-compose.s3.yml
 docker-compose.yml
+
+supabase/
